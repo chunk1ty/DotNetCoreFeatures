@@ -1,4 +1,4 @@
-﻿using DotNetCoreFeatures.Hosts.WebApplications;
+﻿//using DotNetCoreFeatures.Hosts.WebApplications;
 using DotNetCoreFeatures.Hosts.WorkerServices;
 using DotNetCoreFeatures.Hosts.WorkerServices.Channels;
 using Microsoft.AspNetCore.Hosting;
@@ -13,18 +13,18 @@ namespace DotNetCoreFeatures.Hosts
         {
             // project sdk should be Microsoft.NET.Sdk.Web
             // endpoint -> localhost:port/home
-            CreateWebHostBuilder(args).Build().Run();
+            //CreateWebHostBuilder(args).Build().Run();
 
             // project sdk should be Microsoft.NET.Sdk
-            //CreateServiceHostBuilder(args).Build().Run();
+            CreateServiceHostBuilder(args).Build().Run();
         }
 
-        public static IHostBuilder CreateWebHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.UseStartup<Startup>();
-                });
+        //public static IHostBuilder CreateWebHostBuilder(string[] args) =>
+        //    Host.CreateDefaultBuilder(args)
+        //        .ConfigureWebHostDefaults(webBuilder =>
+        //        {
+        //            webBuilder.UseStartup<Startup>();
+        //        });
 
         public static IHostBuilder CreateServiceHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
@@ -34,7 +34,8 @@ namespace DotNetCoreFeatures.Hosts
 
                     services.AddSingleton<MyChannel>();
                     services.AddHostedService<ChannelWorker>();
-                });
 
+                    services.AddHostedService<AdvancedWorker>();
+                });
     }
 }
