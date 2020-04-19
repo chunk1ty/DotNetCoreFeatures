@@ -4,7 +4,7 @@ using System.Threading.Channels;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 
-namespace DotNetCoreFeatures.Hosts.WorkerServices.Channels
+namespace DotNetCoreFeatures.Hosting.WorkerServices.Channels
 {
     public class MyChannel
     {

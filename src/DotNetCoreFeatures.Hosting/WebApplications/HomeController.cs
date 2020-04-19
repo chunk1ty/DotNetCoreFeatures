@@ -1,6 +1,4 @@
-﻿//using Microsoft.AspNetCore.Mvc;
-
-//namespace DotNetCoreFeatures.Hosts.WebApplications
+﻿//namespace DotNetCoreFeatures.Hosting.WebApplications
 //{
 //    [ApiController]
 //    [Route("[controller]")]

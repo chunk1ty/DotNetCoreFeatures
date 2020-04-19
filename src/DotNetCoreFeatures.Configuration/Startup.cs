@@ -1,10 +1,10 @@
-using DotNetCoreFeatures.Configurations.Controllers;
+using DotNetCoreFeatures.Configuration.Controllers;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace DotNetCoreFeatures.Configurations
+namespace DotNetCoreFeatures.Configuration
 {
     public class Startup
     {

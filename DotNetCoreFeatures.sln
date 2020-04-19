@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCoreFeatures.Hosts", "src\Hosts\DotNetCoreFeatures.Hosts.csproj", "{A0489A64-61FE-403A-9AD2-5D1C17C22E7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCoreFeatures.Hosting", "src\DotNetCoreFeatures.Hosting\DotNetCoreFeatures.Hosting.csproj", "{A0489A64-61FE-403A-9AD2-5D1C17C22E7D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{03D3F5C3-4BF1-4B61-88EB-B805E8C65B26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreFeatures.Configurations", "src\DotNetCoreFeatures.Configurations\DotNetCoreFeatures.Configurations.csproj", "{A6029229-4983-4148-BEAD-108C5A854FD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCoreFeatures.Configuration", "src\DotNetCoreFeatures.Configuration\DotNetCoreFeatures.Configuration.csproj", "{A6029229-4983-4148-BEAD-108C5A854FD7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

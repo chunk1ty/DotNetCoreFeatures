@@ -1,10 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace DotNetCoreFeatures.Configurations.Controllers
+namespace DotNetCoreFeatures.Configuration.Controllers
 {
     public class FeaturesConfiguration
     {

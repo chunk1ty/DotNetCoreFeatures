@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace DotNetCoreFeatures.Hosts.WorkerServices
+namespace DotNetCoreFeatures.Hosting.WorkerServices
 {
     public class AdvancedWorker : BackgroundService
     {

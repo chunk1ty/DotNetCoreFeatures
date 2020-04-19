@@ -1,11 +1,11 @@
 ﻿//using DotNetCoreFeatures.Hosts.WebApplications;
-using DotNetCoreFeatures.Hosts.WorkerServices;
-using DotNetCoreFeatures.Hosts.WorkerServices.Channels;
-using Microsoft.AspNetCore.Hosting;
+
+using DotNetCoreFeatures.Hosting.WorkerServices;
+using DotNetCoreFeatures.Hosting.WorkerServices.Channels;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace DotNetCoreFeatures.Hosts
+namespace DotNetCoreFeatures.Hosting
 {
     public class Program
     {        

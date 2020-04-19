@@ -1,10 +1,10 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
-using DotNetCoreFeatures.Hosts.WorkerServices.Channels;
+using DotNetCoreFeatures.Hosting.WorkerServices.Channels;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace DotNetCoreFeatures.Hosts.WorkerServices
+namespace DotNetCoreFeatures.Hosting.WorkerServices
 {
     // pick messages from channel - (Consumer)
     public class ChannelWorker : BackgroundService
