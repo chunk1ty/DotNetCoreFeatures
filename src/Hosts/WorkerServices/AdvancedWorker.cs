@@ -54,7 +54,7 @@ namespace DotNetCoreFeatures.Hosts.WorkerServices
 
         private void DoSomeLogic()
         {
-            throw new ArgumentNullException();
+            //throw new ArgumentNullException();
         }
 
         public override async Task StopAsync(CancellationToken cancellationToken)
