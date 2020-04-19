@@ -1,0 +1,13 @@
+﻿@model HomeIndexViewModel
+<div>
+    <h1>
+        Welcome
+    </h1>
+    @if (Model.EnableAnkFeature)
+    {
+        <h2>Ank Feature</h2>
+    }
+    <h2>
+        @Model.AnkText
+    </h2>
+</div>

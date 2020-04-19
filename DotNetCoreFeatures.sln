@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCoreFeatures.Hosts", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{03D3F5C3-4BF1-4B61-88EB-B805E8C65B26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreFeatures.Configurations", "src\DotNetCoreFeatures.Configurations\DotNetCoreFeatures.Configurations.csproj", "{A6029229-4983-4148-BEAD-108C5A854FD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,17 @@ Global
 		{A0489A64-61FE-403A-9AD2-5D1C17C22E7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0489A64-61FE-403A-9AD2-5D1C17C22E7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0489A64-61FE-403A-9AD2-5D1C17C22E7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6029229-4983-4148-BEAD-108C5A854FD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6029229-4983-4148-BEAD-108C5A854FD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6029229-4983-4148-BEAD-108C5A854FD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6029229-4983-4148-BEAD-108C5A854FD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A0489A64-61FE-403A-9AD2-5D1C17C22E7D} = {03D3F5C3-4BF1-4B61-88EB-B805E8C65B26}
+		{A6029229-4983-4148-BEAD-108C5A854FD7} = {03D3F5C3-4BF1-4B61-88EB-B805E8C65B26}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CE11EC88-8F43-4E70-89B8-B296E3E6D4B7}
